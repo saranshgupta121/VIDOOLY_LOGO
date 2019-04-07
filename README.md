@@ -9,3 +9,4 @@ For detecting the logo, template matching technique is used.
 
 The problem with our model was due to very small region of interest(logo) on the entire image which makes our model quite hard to learn the required features.Further improvement can be done by sliding window method. For smarter region proposals, we can use  and an image-segmentation based approach allowing us to generate more finegrained region proposals without having the number of regions to test blow up too quickly.For bounding box we can use appproach of YOLO.  
 
+For checking the result just clone the repository and change the value of i in order to specify an index between 0 to 270 to see detection on that particular image.
