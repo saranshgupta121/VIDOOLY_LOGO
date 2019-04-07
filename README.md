@@ -1,7 +1,7 @@
 ## VIDOOLY_LOGO
 # Logo Classification and Detection
 
-Since the training dataset has only #810 images and **27** classes of classes.That means only **30** images per class.So the data is not sufficent to train a convolution network from scratch, hence #data augmentation technique is used to increase the number of training samples.
+Since the training dataset has only **810** images and **27** classes of classes.That means only **30** images per class.So the data is not sufficent to train a convolution network from scratch, hence #data augmentation technique is used to increase the number of training samples.
 
 Firstly i used OpenCv #orb but the results wasn't satisfactory.So after that i used **transfer** learning for classsification of logos using **VGG-16** network which is best for the image classification which gave a training accuracy of 98% which seems to decrease on test dataset.
 
